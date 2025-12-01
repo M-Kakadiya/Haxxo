@@ -1,49 +1,3 @@
-/*-----------------------------------------------------------------------------------
-
-  Theme Name: Redox - Creative Agency and Portfolio HTML Template
-  Author: ravextheme
-  Support: https://support.rrdevs.net/
-  Description: Redox - Creative Agency and Portfolio HTML Template
-  Version: 1.0.2
-
------------------------------------------------------------------------------------
-
-/************ TABLE OF CONTENTS ***************
-variable css
-typography css
-animation css
-global css
-theme css
-Preloader css
-scroll css
-button css
-button animation css
-menu css
-modal css
-cursor css
-digital agency page css
-design agency page css
-creative agency page css
-marketing agency page css
-startup agency page css
-portfolio agency page css
-portfolio page css
-parallax carousal page css
-portfolio showcase page css
-portfolio showcase 2 page css
-404 page css
-about page css
-blog details page css
-blog page css
-contact page css
-faq page css
-service details page css
-sercices page css
-team details page css
-work details page css
-work page css
-
-/*----------------------------------------*/
 /* variable css  */
 /*----------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;display=swap");
@@ -69,9 +23,6 @@ work page css
 /*----------------------------------------*/
 /* typography css  */
 /*----------------------------------------*/
-/* dm sans  */
-/* instrument sans  */
-/* Thunder  */
 @font-face {
   font-family: "circular-std-medium";
   src: url("https://cdn.shopify.com/s/files/1/0827/5794/3489/files/circular-std-medium-500.woff");
@@ -964,7 +915,6 @@ h6 {
 }
 .section-title.font-sequelsans-romanbody {
   font-family: var(--font_circular);
-  font-weight: 310;
   line-height: 0.9;
   letter-spacing: -0.07em;
 }
@@ -1346,22 +1296,13 @@ h6 {
 }
 .page-title-wrapper .page-title {
   font-family: var(--font_circular);
-  font-size: 495px;
+  font-size: 270px;
   font-weight: 600;
   line-height: 0.8;
   letter-spacing: -0.02em;
   text-align: center;
   text-transform: uppercase;
-}
-@media only screen and (max-width: 1919px) {
-  .page-title-wrapper .page-title {
-    font-size: 385px;
-  }
-}
-@media only screen and (max-width: 1399px) {
-  .page-title-wrapper .page-title {
-    font-size: 325px;
-  }
+  color:var(--theme);
 }
 @media only screen and (max-width: 1199px) {
   .page-title-wrapper .page-title {
@@ -4294,6 +4235,7 @@ video.video-area {
 .funfact-area {
   background-color: var(--bg);
 }
+.feature-area .section-title,
 .funfact-area .section-title {
   color: var(--white);
 }
@@ -4550,7 +4492,7 @@ video.video-area {
 }
 .client-area .client-box {
   width: 215px;
-  height: 100px;
+  height: 90px;
   padding: 10px 20px;
   background-color: var(--primary);
   display: inline-flex;
@@ -6175,12 +6117,12 @@ video.video-area {
 }
 .services-wrapper-4 .service-box .number {
   font-family: var(--font_circular);
-  font-size: 350px;
+  font-size: 160px;
   font-weight: 400;
   line-height: 0.7;
   letter-spacing: -0.02em;
   display: inline-block;
-  color: var(--primary);
+  color: var(--theme);
   margin-top: 80px;
 }
 @media only screen and (max-width: 1919px) {
@@ -6211,20 +6153,8 @@ video.video-area {
 }
 .services-wrapper-4 .service-box .title {
   font-family: var(--font_circular);
-  font-size: 100px;
-  text-transform: uppercase;
+  font-size: 70px;
   margin-top: 40px;
-}
-@media only screen and (max-width: 1919px) {
-  .services-wrapper-4 .service-box .title {
-    font-size: 80px;
-  }
-}
-@media only screen and (max-width: 1399px) {
-  .services-wrapper-4 .service-box .title {
-    font-size: 60px;
-    margin-top: 30px;
-  }
 }
 @media only screen and (max-width: 1199px) {
   .services-wrapper-4 .service-box .title {
@@ -31265,4 +31195,15 @@ START: Footer CSS
     flex-direction: column;
     height: 100%;
     justify-content: space-between;
+}
+.service-area-service-page-inner .title-wrapper p {
+    max-width: 800px;
+    margin-top: 40px;
+}
+.hero-area-service-details-inner .section-content .text-wrapper {
+    margin-bottom: 30px;
+}
+.feature-area .section-title {
+    text-align: center;
+    margin-bottom: 60px;
 }
