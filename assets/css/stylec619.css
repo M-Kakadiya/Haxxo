@@ -4192,7 +4192,7 @@ video.video-area {
   display: grid;
   gap: 20px 30px;
   grid-template-columns: 1fr 410px 545px;
-  align-items: flex-start;
+  align-items: center;
 }
 @media only screen and (max-width: 1199px) {
   .services-wrapper-1 .service-box {
@@ -4280,8 +4280,6 @@ video.video-area {
 .services-wrapper-1 .service-box .thumb img {
   width: 35%;
   object-fit: cover;
-  height: 265px;
-  border-radius: 20px;
 }
 @media only screen and (max-width: 991px) {
   .services-wrapper-1 .service-box .thumb img {
