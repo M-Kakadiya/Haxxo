@@ -4278,8 +4278,10 @@ video.video-area {
   }
 }
 .services-wrapper-1 .service-box .thumb img {
-  width: 35%;
-  object-fit: cover;
+    width: 220px !important;
+    border-radius: 20px !important;
+    border: 4px solid #00a8a8;
+    padding: 15px;
 }
 @media only screen and (max-width: 991px) {
   .services-wrapper-1 .service-box .thumb img {
