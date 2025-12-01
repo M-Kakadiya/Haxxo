@@ -4481,6 +4481,7 @@ video.video-area {
 .client-area .section-title {
   max-width: 1430px;
 }
+.testimonial-area .section-title span,
 .client-area .section-title span {
   color: var(--theme);
 }
