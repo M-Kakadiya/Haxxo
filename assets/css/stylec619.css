@@ -14205,6 +14205,7 @@ video.video-area {
 }
 .contact-area-contact-page .contact-formfield select option[disabled] {
   background-color: var(--black) !important;
+  color: #fff;
 }
 .contact-area-contact-page .submit-btn {
   margin-top: 50px;
@@ -16153,9 +16154,6 @@ video.video-area {
   .work-area-work-page .section-content-wrapper {
     grid-template-columns: 1fr;
   }
-}
-.work-area-work-page .works-wrapper-box .container.large {
-  max-width: 1850px;
 }
 @media (min-width: 992px) {
   .work-area-work-page .work-area-2-inner {
@@ -31206,4 +31204,10 @@ START: Footer CSS
 .feature-area .section-title {
     text-align: center;
     margin-bottom: 60px;
+}
+.feature-area-inner .section-title span{
+  color:var(--action)
+}
+#my-form-status {
+    margin-top: 20px;
 }
