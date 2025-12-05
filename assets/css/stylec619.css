@@ -27,7 +27,7 @@
 /*----------------------------------------*/
 @font-face {
   font-family: "circular-std-medium";
-  src: url("https://cdn.shopify.com/s/files/1/0827/5794/3489/files/circular-std-medium-500.woff");
+  src: url("../fonts/circular-std-medium-500.woff");
   font-weight: 500;
 }
 .font-heading-instrumentsans-medium h1,
