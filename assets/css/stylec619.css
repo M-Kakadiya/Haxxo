@@ -6560,32 +6560,11 @@ video.video-area {
   margin-top: 54px;
 }
 .service-content-wrapper .service-content .text-wrapper {
-  margin-top: 192px;
-  max-width: 540px;
-}
-@media only screen and (max-width: 1919px) {
-  .service-content-wrapper .service-content .text-wrapper {
-    margin-top: 102px;
-  }
-}
-@media only screen and (max-width: 991px) {
-  .service-content-wrapper .service-content .text-wrapper {
-    margin-top: 0;
-  }
+  max-width: 100%;
 }
 .service-content-wrapper .service-content .text-wrapper .text:not(:first-child) {
-  margin-top: 35px;
+  margin-top: 30px;
 }
-.service-content-wrapper .service-content .section-info-wrapper .thumb {
-  max-width: 250px;
-  margin-left: auto;
-}
-@media only screen and (max-width: 991px) {
-  .service-content-wrapper .service-content .section-info-wrapper .thumb {
-    display: none;
-  }
-}
-
 .services-wrapper-2 .service-box {
   display: grid;
   gap: 20px 50px;
