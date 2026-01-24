@@ -4,7 +4,7 @@
 :root {
   --primary: #1f1f1f;
   --secondary: #555555;
-  --border: rgba(17, 17, 17, 0.1);
+  --border: #00a8a8;
   --bg: #1f1f1f;
   --theme: #00a8a8;
   --black: #1f1f1f;
@@ -6846,14 +6846,15 @@ video.video-area {
   transition-timing-function: linear !important;
 }
 .client-area-2 .client-box {
-  border: 1px solid var(--theme);
-  border-radius: 70px;
-  width: 215px;
-  height: 80px;
-  padding: 0 20px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+    border: 1px solid var(--theme);
+    border-radius: 70px;
+    width: 215px;
+    height: 80px;
+    padding: 0 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 6px;
 }
 .dark .client-area-2 .client-box {
   border-color: rgba(17, 17, 17, 0.1);
