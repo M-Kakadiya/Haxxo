@@ -57,6 +57,33 @@ new Swiper(".mySwiper", {
     1200: { slidesPerView: 3 }
   }
 });
+document.addEventListener("DOMContentLoaded", () => {
+  gsap.registerPlugin(ScrollTrigger);
+
+  const wrap = document.querySelector(".project_content-wrap");
+  const sticky = document.querySelector(".project_info-sticky");
+
+  if (!wrap || !sticky) {
+    console.warn("Sticky elements not found");
+    return;
+  }
+
+  ScrollTrigger.create({
+    trigger: wrap,
+    start: "top top+=20",
+    end: "bottom bottom",
+    pin: sticky,
+    pinSpacing: true,
+    onRefresh: () => {
+      document.querySelectorAll(".pin-spacer").forEach(el => {
+        el.style.top = "20px";
+        el.style.inset = "20px auto auto";
+      });
+    }
+  });
+
+});
+
 // contact form
 var form = document.getElementById("contact__form");
 
@@ -88,3 +115,5 @@ async function handleSubmit(event) {
   });
 }
 form.addEventListener("submit", handleSubmit)
+
+
