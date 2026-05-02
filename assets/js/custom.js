@@ -1,16 +1,16 @@
 document.getElementById("year").textContent = new Date().getFullYear();
-  // if (window.location.pathname.endsWith('index.html')) {
-  //   window.location.replace('https://www.haxxo.in/');
-  // }
-  // (function () {
-  //   var path = window.location.pathname;
+  if (window.location.pathname.endsWith('index.html')) {
+    window.location.replace('https://www.haxxo.in/');
+  }
+  (function () {
+    var path = window.location.pathname;
 
-  //   // Ignore root and already clean URLs
-  //   if (path !== "/" && path.endsWith(".html")) {
-  //     var cleanPath = path.replace(/\.html$/, "");
-  //     window.history.replaceState({}, "", cleanPath);
-  //   }
-  // })();
+    // Ignore root and already clean URLs
+    if (path !== "/" && path.endsWith(".html")) {
+      var cleanPath = path.replace(/\.html$/, "");
+      window.history.replaceState({}, "", cleanPath);
+    }
+  })();
 new Swiper(".myWorksSlider", {
   slidesPerView: 3,
   spaceBetween: 30,
