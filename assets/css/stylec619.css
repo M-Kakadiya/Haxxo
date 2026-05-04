@@ -862,7 +862,7 @@ h6 {
 }
 @media only screen and (max-width: 767px) {
   .section-title {
-    font-size: 33px;
+    font-size: 30px;
   }
 }
 .section-title.font-instrumentsans-medium {
@@ -11983,11 +11983,15 @@ video.video-area {
   .info-area-page-about .counter-wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
+  .info-area-page-about .funfact-item span{
+    position: unset !important;
+  }
 }
 @media only screen and (max-width: 767px) {
   .info-area-page-about .counter-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
+
 }
 .info-area-page-about .funfact-item {
     padding: 39px 50px 41px;
@@ -13772,6 +13776,10 @@ video.video-area {
 @media only screen and (max-width: 991px) {
   .hero-area-service-details .section-header {
     grid-template-columns: 1fr;
+  }
+  .hero-area-service-details .service-meta .serial,
+  .hero-area-service-details .service-meta .next-item{
+    font-size: 16px;
   }
 }
 .hero-area-service-details .section-content-wrapper {
@@ -29181,4 +29189,17 @@ START: Footer CSS
 .project_site-link {
     text-decoration: underline;
     color: var(--theme);
+}
+@media only screen and (max-width:575px){
+  .client-content {
+    width: 180px;
+    height: 180px;
+  }
+  .client-content .sec-title{
+    font-size: 16px;
+  }
+  .hero_cards-wrap {
+    gap: 15px; /* space between images */
+    animation: scrollRight 14s linear infinite;
+  }
 }
